@@ -10,6 +10,7 @@ import Bottombar from '@/components/Bottombar';
 import Tabsbar from '@/components/Tabsbar';
 import Terminal from '@/components/Terminal';
 import CommandPalette from '@/components/CommandPalette';
+import RightSidebar from '@/components/RightSidebar';
 
 import styles from '@/styles/Layout.module.css';
 
@@ -109,9 +110,12 @@ const Layout = ({ children }: LayoutProps) => {
         <div className={styles.editorContainer}>
           <Tabsbar />
           <div className={styles.editorWithTerminal}>
-            <main id="main-editor" className={styles.content}>
-              {children}
-            </main>
+            <div className={styles.editorSplit}>
+              <main id="main-editor" className={styles.content}>
+                {children}
+              </main>
+              <RightSidebar />
+            </div>
             {isTerminalOpen && <Terminal onToggle={toggleTerminal} />}
           </div>
         </div>

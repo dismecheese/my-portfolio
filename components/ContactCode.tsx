@@ -2,39 +2,34 @@ import styles from '@/styles/ContactCode.module.css';
 
 const contactItems = [
   {
-    social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
-  },
-  {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'capinmarzella2004@gmail.com',
+    href: 'mailto:capinmarzella2004@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'dismecheese',
+    href: 'https://github.com/dismecheese',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'marzellanicolecapin',
+    href: 'https://www.linkedin.com/in/marzellanicolecapin/',
   },
   {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    social: 'instagram',
+    link: 'marzellasaur',
+    href: 'https://www.instagram.com/marzellasaur',
   },
   {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    social: 'roblox',
+    link: 'steysadie',
+    href: 'https://www.roblox.com/users/6125399715/profile',
   },
-  {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    {
+    social: 'mobile',
+    link: '09763271937',
+    href: 'tel:+639763271937',
   },
 ];
 

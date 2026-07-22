@@ -14,7 +14,7 @@ const AboutPage = () => {
           <div className={styles.headerContent}>
             <div className={styles.headerText}>
               <h1 className={styles.name}>Marzella Capin</h1>
-              <p className={styles.role}>Software Engineer at Tessact</p>
+              <p className={styles.role}>Senior IT Student @ PUP </p>
               <div className={styles.location}>
                 <span className={styles.dot} />
                 Manila, Philippines
@@ -24,7 +24,7 @@ const AboutPage = () => {
 
           <div className={styles.headerActions}>
             <a
-              href="https://github.com/itsnitinr"
+              href="https://github.com/dismecheese"
               target="_blank"
               rel="noopener noreferrer"
               className={styles.iconButton}
@@ -47,15 +47,18 @@ const AboutPage = () => {
 
             <div className={styles.sectionBody}>
               <p className={styles.paragraph}>
-                I&apos;m a software engineer passionate about crafting beautiful, performant
-                web experiences. I primarily work with the JavaScript/TypeScript ecosystem
-                and React, building products that people love to use.
+                I am a fourth-year Information Technology student at the Polytechnic University of the Philippines. 
+                I am scheduled to graduate this September and am currently a candidate for Magna Cum Laude honors.  
+                Throughout my academic journey and hands-on internships, 
+                I have built a solid foundation in full-stack web development and UI/UX design. 
+                My technical toolkit primarily revolves around modern technologies like Next.js, React, Node.js, and TypeScript, 
+                along with experience using C#, Java, and SQL.
               </p>
 
               <p className={styles.paragraph}>
-                While I specialize in frontend development, I enjoy working across the
-                stack with Node.js, MongoDB, and Express to bring full-stack applications
-                to life.
+                From mapping out user flows in Figma to structuring backend databases, 
+                I enjoy working across the entire development process to bring complete, 
+                user-friendly applications to life.
               </p>
             </div>
           </section>
@@ -70,27 +73,28 @@ const AboutPage = () => {
             <div className={styles.sectionBody}>
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Present</span>
+                  <span className={styles.expPeriod}>June 2026 - Present</span>
                 </div>
-                <h3 className={styles.expRole}>Software Engineer 2</h3>
-                <p className={styles.expCompany}>Tessact</p>
+                <h3 className={styles.expRole}>Operations Intern</h3>
+                <p className={styles.expCompany}>Make Technology Inc.</p>
                 <ul className={styles.expList}>
-                  <li>Leading frontend development with a lean team of 4 engineers</li>
-                  <li>Building a next-gen video creation suite for professionals</li>
-                  <li>Implemented collaborative video reviewing and editing features</li>
-                  <li>Maintaining in-house component library, icon library and website</li>
+                  <li>Developed and maintained internal systems and tools to optimize the company's daily business operations.</li>
+                  <li>Engaged in full-stack development, project management, and quality assurance (QA) testing.</li>
+                  <li>Identified and implemented automation solutions to streamline existing processes and solve everyday challenges for employees.</li>
                 </ul>
               </div>
 
               <div className={styles.experienceCard}>
                 <div className={styles.expMeta}>
-                  <span className={styles.expPeriod}>Freelance</span>
+                  <span className={styles.expPeriod}>March 2026 - June 2026</span>
                 </div>
-                <h3 className={styles.expRole}>Technical Writer</h3>
-                <p className={styles.expDesc}>
-                  Contributing to publications like <strong>100ms Blog</strong>,
-                  <strong>LogRocket Blog</strong>, and <strong>DEV.to</strong>.
-                </p>
+                <h3 className={styles.expRole}>Software Developer Intern</h3>
+                <p className={styles.expCompany}>DOST Project LODI</p>
+                <ul className={styles.expList}>
+                  <li>Contributed to system development projects by writing and debugging frontend and backend code.</li>
+                  <li>Participated in UI/UX design and collaborated with the team on various full-stack tasks.</li>
+                  <li>Supported Agile methodologies by defining user stories and organizing Product Backlog Items (PBIs) for documentation.</li>
+                </ul>
               </div>
             </div>
           </section>
@@ -110,6 +114,8 @@ const AboutPage = () => {
                     <span className={styles.skillTag}>JavaScript</span>
                     <span className={styles.skillTag}>TypeScript</span>
                     <span className={styles.skillTag}>HTML/CSS</span>
+                    <span className={styles.skillTag}>C#</span>
+                    <span className={styles.skillTag}>SQL</span>
                   </div>
                 </div>
 
@@ -118,6 +124,7 @@ const AboutPage = () => {
                   <div className={styles.skillTags}>
                     <span className={styles.skillTag}>React</span>
                     <span className={styles.skillTag}>Next.js</span>
+                    <span className={styles.skillTag}>Blazor</span>
                     <span className={styles.skillTag}>Tailwind CSS</span>
                   </div>
                 </div>
@@ -126,8 +133,10 @@ const AboutPage = () => {
                   <h4 className={styles.skillTitle}>Backend</h4>
                   <div className={styles.skillTags}>
                     <span className={styles.skillTag}>Node.js</span>
-                    <span className={styles.skillTag}>Express</span>
-                    <span className={styles.skillTag}>MongoDB</span>
+                    <span className={styles.skillTag}>PostgreSQL</span>
+                    <span className={styles.skillTag}>MySQL</span>
+                    <span className={styles.skillTag}>Prisma</span>
+                    <span className={styles.skillTag}>ASP.NET Core</span>
                   </div>
                 </div>
 
@@ -136,7 +145,10 @@ const AboutPage = () => {
                   <div className={styles.skillTags}>
                     <span className={styles.skillTag}>Git</span>
                     <span className={styles.skillTag}>VS Code</span>
+                    <span className={styles.skillTag}>Antigravity</span>
+                    <span className={styles.skillTag}>Docker</span>
                     <span className={styles.skillTag}>Figma</span>
+                    <span className={styles.skillTag}>Canva</span>
                   </div>
                 </div>
               </div>

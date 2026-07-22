@@ -21,16 +21,20 @@ export default function HomePage() {
 
             <h1 className={styles.name}>Marzella Capin</h1>
 
-            <p className={styles.role}>Full Stack Developer</p>
+            <p className={styles.role}>Senior IT Student</p>
 
             <div className={styles.divider} />
 
             <p className={styles.description}>
-              I craft clean, performant web applications with modern technologies.
-              Specialized in TypeScript, React, Node.js, and building products
-              that users love.
+              With a passion for building applications that are both highly functional and beautifully designed, 
+              I always prioritize quality and usability in my work. 
+              I take pride in what I do and handle fast-paced environments with a positive mindset. 
+              Whether I am working independently or collaborating with a team, 
+              I am always eager to learn, adapt, and take on new challenges in the tech industry.
+              <br /><br />Thank you for visiting my portfolio. 
+              Feel free to look around and explore!
             </p>
-          </div>
+          </div> 
 
           <div className={styles.actions}>
             <Link href="/projects" className={styles.primaryAction}>

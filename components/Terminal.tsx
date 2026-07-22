@@ -29,7 +29,7 @@ const commands: Record<string, () => string[]> = {
     '  echo      - Echo text (usage: echo <text>)',
   ],
   about: () => [
-    "Hi, I'm Nitin!",
+    "Hi, I'm Marzy!",
     'A passionate full-stack developer who loves building beautiful,',
     'functional web applications. This portfolio is styled like VS Code',
     'because I spend most of my time here anyway.',

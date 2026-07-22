@@ -29,6 +29,12 @@
   min-height: 0;
 }
 
+.editorSplit {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
 .content {
   padding: 2rem;
   color: var(--text-color);

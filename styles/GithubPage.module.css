@@ -6,10 +6,9 @@
 }
 
 .container {
-  max-width: 640px;
+  max-width: 70ch;
   width: 100%;
-  margin: 0 auto;
-  padding: 40px;
+  text-align: left;
 }
 
 /* Header */
