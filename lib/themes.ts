@@ -7,40 +7,22 @@ export interface ThemeInfo {
 
 export const THEMES: ThemeInfo[] = [
   {
-    name: 'GitHub Dark',
-    theme: 'github-dark',
-    icon: '/themes/github-dark.png',
-    publisher: 'GitHub',
+    name: 'Dark',
+    theme: 'dark',
+    icon: '/themes/dark-plus.png',
+    publisher: 'Microsoft',
   },
   {
-    name: 'Dracula',
-    theme: 'dracula',
-    icon: '/themes/dracula.png',
-    publisher: 'Dracula Theme',
+    name: 'Light',
+    theme: 'light',
+    icon: '/themes/dark-plus.png',
+    publisher: 'Antigravity',
   },
   {
-    name: 'Ayu Dark',
-    theme: 'ayu-dark',
-    icon: '/themes/ayu.png',
-    publisher: 'teabyii',
-  },
-  {
-    name: 'Ayu Mirage',
-    theme: 'ayu-mirage',
-    icon: '/themes/ayu.png',
-    publisher: 'teabyii',
-  },
-  {
-    name: 'Nord',
-    theme: 'nord',
-    icon: '/themes/nord.png',
-    publisher: 'arcticicestudio',
-  },
-  {
-    name: 'Night Owl',
-    theme: 'night-owl',
-    icon: '/themes/night-owl.png',
-    publisher: 'sarah.drasner',
+    name: 'Marzy',
+    theme: 'marzy',
+    icon: '/themes/dark-plus.png',
+    publisher: 'Antigravity',
   },
 ];
 

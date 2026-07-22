@@ -37,10 +37,13 @@ export const metadata: Metadata = {
 
 const themeScript = `
   (function() {
-    const theme = localStorage.getItem('theme');
-    if (theme) {
-      document.documentElement.setAttribute('data-theme', theme);
+    const validThemes = ['dark', 'light', 'marzy'];
+    let theme = localStorage.getItem('theme');
+    if (!theme || !validThemes.includes(theme)) {
+      theme = 'dark';
+      localStorage.setItem('theme', theme);
     }
+    document.documentElement.setAttribute('data-theme', theme);
   })();
 `;
 

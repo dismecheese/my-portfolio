@@ -9,11 +9,16 @@ import ThemeInfo from '@/components/ThemeInfo';
 import styles from '@/styles/SettingsPage.module.css';
 
 const SettingsPage = () => {
-  const [activeTheme, setActiveTheme] = useState('github-dark');
+  const [activeTheme, setActiveTheme] = useState('dark');
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme') || 'github-dark';
+    const validThemes = ['dark', 'light', 'marzy'];
+    let savedTheme = localStorage.getItem('theme');
+    if (!savedTheme || !validThemes.includes(savedTheme)) {
+      savedTheme = 'dark';
+      localStorage.setItem('theme', savedTheme);
+    }
     setActiveTheme(savedTheme);
     setIsLoaded(true);
   }, []);
