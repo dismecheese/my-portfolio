@@ -5,7 +5,7 @@
   background-color: var(--article-bg);
   border-radius: 4px;
   padding: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(var(--overlay-rgb), 0.1);
   position: relative;
   overflow: hidden;
 }

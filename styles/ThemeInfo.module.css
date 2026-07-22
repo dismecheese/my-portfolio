@@ -5,7 +5,7 @@
   align-items: center;
   gap: 16px;
   padding: 16px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(var(--overlay-rgb), 0.02);
   border: 1px solid var(--explorer-border);
   border-radius: 10px;
   cursor: pointer;
@@ -15,8 +15,8 @@
 }
 
 .card:hover {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(var(--overlay-rgb), 0.04);
+  border-color: rgba(var(--overlay-rgb), 0.15);
   transform: translateY(-2px);
 }
 
@@ -30,8 +30,8 @@
   width: 48px;
   height: 48px;
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(var(--overlay-rgb), 0.05);
+  border: 1px solid rgba(var(--overlay-rgb), 0.1);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@
   height: 20px;
   border-radius: 50%;
   background: var(--accent-color);
-  color: white;
+  color: var(--button-text);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@
 .publisher {
   margin: 0;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(var(--overlay-rgb), 0.5);
 }
 
 /* Responsive */

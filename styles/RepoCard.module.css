@@ -3,7 +3,7 @@
 .card {
   display: flex;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(var(--overlay-rgb), 0.02);
   border: 1px solid var(--explorer-border);
   border-radius: 10px;
   padding: 20px;
@@ -14,8 +14,8 @@
 }
 
 .card:hover {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.15);
+  background: rgba(var(--overlay-rgb), 0.04);
+  border-color: rgba(var(--overlay-rgb), 0.15);
   transform: translateY(-2px);
 }
 
@@ -39,20 +39,20 @@
 }
 
 .externalIcon {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(var(--overlay-rgb), 0.3);
   flex-shrink: 0;
   transition: color 0.2s ease;
 }
 
 .card:hover .externalIcon {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(var(--overlay-rgb), 0.6);
 }
 
 .description {
   margin: 0 0 16px 0;
   font-size: 13px;
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.55);
+  color: rgba(var(--overlay-rgb), 0.55);
   flex-grow: 1;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -78,7 +78,7 @@
   align-items: center;
   gap: 6px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(var(--overlay-rgb), 0.6);
 }
 
 .languageDot {
@@ -92,11 +92,11 @@
   align-items: center;
   gap: 4px;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(var(--overlay-rgb), 0.5);
 }
 
 .stat svg {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(var(--overlay-rgb), 0.4);
 }
 
 /* Responsive */

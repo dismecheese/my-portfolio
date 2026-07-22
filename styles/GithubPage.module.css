@@ -49,7 +49,7 @@
 
 .handle {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(var(--overlay-rgb), 0.5);
   font-family: var(--font-mono);
 }
 
@@ -60,7 +60,7 @@
   padding: 10px 18px;
   background: var(--accent-color);
   border-radius: 6px;
-  color: white;
+  color: var(--button-text);
   text-decoration: none;
   font-size: 13px;
   font-weight: 500;
@@ -86,15 +86,15 @@
   align-items: center;
   text-align: center;
   padding: 24px 16px;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(var(--overlay-rgb), 0.02);
   border: 1px solid var(--explorer-border);
   border-radius: 10px;
   transition: all 0.2s ease;
 }
 
 .statCard:hover {
-  background: rgba(255, 255, 255, 0.04);
-  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(var(--overlay-rgb), 0.04);
+  border-color: rgba(var(--overlay-rgb), 0.1);
 }
 
 .statIcon {
@@ -119,7 +119,7 @@
 
 .statLabel {
   font-size: 11px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(var(--overlay-rgb), 0.5);
   text-transform: uppercase;
   letter-spacing: 0.5px;
   margin-top: 4px;
@@ -138,7 +138,7 @@
   margin: 0 0 8px 0;
   font-size: 16px;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(var(--overlay-rgb), 0.9);
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
@@ -167,7 +167,7 @@
 
 /* Contributions */
 .contributions {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(var(--overlay-rgb), 0.02);
   border: 1px solid var(--explorer-border);
   border-radius: 10px;
   padding: 24px;
