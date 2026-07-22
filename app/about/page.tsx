@@ -17,7 +17,7 @@ const AboutPage = () => {
               <p className={styles.role}>Software Engineer at Tessact</p>
               <div className={styles.location}>
                 <span className={styles.dot} />
-                Mumbai, India
+                Manila, Philippines
               </div>
             </div>
           </div>

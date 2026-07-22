@@ -38,7 +38,7 @@
 .pageSubtitle {
   font-size: 1rem;
   font-weight: 400;
-  color: rgba(var(--overlay-rgb), 0.7);
+  color: var(--text-color);
   margin-bottom: 3rem;
   max-width: 600px;
   line-height: 1.6;

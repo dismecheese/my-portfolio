@@ -112,7 +112,7 @@
 }
 
 .input::placeholder {
-  color: rgba(var(--overlay-rgb), 0.3);
+  color: var(--text-color-muted);
 }
 
 @media screen and (max-width: 600px) {

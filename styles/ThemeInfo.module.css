@@ -16,7 +16,7 @@
 
 .card:hover {
   background: rgba(var(--overlay-rgb), 0.04);
-  border-color: rgba(var(--overlay-rgb), 0.15);
+  border-color: var(--text-color-muted);
   transform: translateY(-2px);
 }
 
@@ -78,7 +78,7 @@
 .publisher {
   margin: 0;
   font-size: 12px;
-  color: rgba(var(--overlay-rgb), 0.5);
+  color: var(--text-color-muted);
 }
 
 /* Responsive */

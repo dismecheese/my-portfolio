@@ -62,7 +62,7 @@
 .greeting {
   margin: 0;
   font-size: 13px;
-  color: rgba(var(--overlay-rgb), 0.4);
+  color: var(--text-color-muted);
   font-family: var(--font-mono);
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -102,7 +102,7 @@
   margin: 0;
   font-size: 15px;
   line-height: 1.8;
-  color: rgba(var(--overlay-rgb), 0.55);
+  color: var(--text-color-muted);
   max-width: 700px;
 }
 
@@ -141,13 +141,13 @@
 
 .secondaryAction {
   background: rgba(var(--overlay-rgb), 0.03);
-  color: rgba(var(--overlay-rgb), 0.8);
+  color: var(--text-color);
   border: 1px solid rgba(var(--overlay-rgb), 0.1);
 }
 
 .secondaryAction:hover {
   background: rgba(var(--overlay-rgb), 0.07);
-  border-color: rgba(var(--overlay-rgb), 0.2);
+  border-color: var(--text-color-muted);
   transform: translateY(-2px);
 }
 
@@ -165,7 +165,7 @@
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  color: rgba(var(--overlay-rgb), 0.4);
+  color: var(--text-color-muted);
   font-size: 13px;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -174,12 +174,12 @@
 }
 
 .link:hover {
-  color: rgba(var(--overlay-rgb), 0.9);
+  color: var(--text-color);
   background: rgba(var(--overlay-rgb), 0.05);
 }
 
 .linkSeparator {
-  color: rgba(var(--overlay-rgb), 0.15);
+  color: var(--text-color-muted);
   font-size: 12px;
 }
 
