@@ -10,14 +10,18 @@
 .iconContainer {
   cursor: pointer;
   width: 100%;
+  color: var(--text-color-muted, rgb(106, 115, 125));
+  transition: color 0.2s ease;
 }
 
 .iconContainer:hover {
   background: var(--sidebar-hover-bg);
+  color: var(--text-color);
 }
 
 .active {
   border-left: 2px solid var(--accent-color);
+  color: var(--text-color);
 }
 
 .icon {

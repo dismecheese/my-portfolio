@@ -21,6 +21,7 @@
     "@types/react": "^19.0.11",
     "eslint": "^9.22.0",
     "eslint-config-next": "^15.2.3",
+    "jimp": "^1.6.1",
     "typescript": "^5.8.2"
   }
 }

@@ -40,11 +40,6 @@ const Sidebar = () => {
             >
               <Icon
                 size={16}
-                fill={
-                  pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
-                }
                 className={styles.icon}
               />
             </div>
@@ -56,11 +51,6 @@ const Sidebar = () => {
           <div className={styles.iconContainer} key={path}>
             <Link href={path}>
               <Icon
-                fill={
-                  pathname === path
-                    ? 'rgb(225, 228, 232)'
-                    : 'rgb(106, 115, 125)'
-                }
                 className={styles.icon}
               />
             </Link>
